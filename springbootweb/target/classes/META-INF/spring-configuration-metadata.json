@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.modules.springboot.controller.Person",
+      "sourceType": "com.modules.springboot.controller.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.modules.springboot.controller.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.modules.springboot.controller.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.modules.springboot.controller.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.modules.springboot.controller.Dog",
+      "sourceType": "com.modules.springboot.controller.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "description": "value等于ConfigurationProperties <bean class=\"Person\">     字段     <property name=\"lastName\" value=\"\"><\/property>     <\/bean> 注入bean",
+      "sourceType": "com.modules.springboot.controller.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.modules.springboot.controller.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.modules.springboot.controller.Person"
+    }
+  ],
+  "hints": []
+}
